@@ -15,7 +15,7 @@ body, html {
 /* Header Styles */
 .banner {
     background: rgba(0, 0, 0, 0.5);
-    background-image: url(../banner_background.jpg);
+    background-image: url("https://res.cloudinary.com/dxxg9oy2b/image/upload/v1684795601/example_site_resources/banner_background_p5u5ar.jpg");
     background-blend-mode: multiply; /* Blend the image with the background color */
     background-position: center center;
     background-size: cover;
