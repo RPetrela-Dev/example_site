@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Dev Cheatsheet</title>
+    <link href="../WebDev_CheatSheet/resources/css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="../WebDev_CheatSheet/resources/js/back_to_top_btn.js"></script>
+</head>
+
+<body>
+    <div id="video-background">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="../WebDev_CheatSheet/resources/matrix_background.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header>
+        <div class="banner">
+            <h1>HTML Cheatsheet</h1>
+        </div>
+        <nav>
+            <a href="#basicTags">Basic Tags</a>
+            <a href="#bodyAttributes">Body Attributes</a>
+            <a href="#textTags">Text Tags</a>
+            <a href="#links">Links</a>
+        </nav>
+    </header>
+
+    <a href="#" id="backToTopBtn">&uarr;</a>
+    <!--Basic Tags Table-->
+    <div class="centered-content">
+        <h2 id="basicTags">Basic Tags</h2>
+    </div>  
+    <table>
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>&lt;html&gt; &lt;/html&gt;</code></td>
+                <td>HTML</td>
+                <td>Creates an HTML document</td>
+            </tr>
+            <tr>
+                <td><code>&lt;head&gt; &lt;/head&gt;</code></td>
+                <td>Head</td>
+                <td>Stores title and meta data that isn't displayed</td>
+            </tr>
+            <tr>
+                <td><code>&lt;body&gt; &lt;/body&gt;</code></td>
+                <td>Body</td>
+                <td>Stores the visibile portion of the site</td>
+            </tr>
+            <tr>
+                <td><code>&lt;title&gt; &lt;/title&gt;</code></td>
+                <td>Title</td>
+                <td>Puts name of document in title bar, showing on tabs and bookmarks</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Body Attributes Table-->
+    <div class="centered-content">
+        <h2 id="bodyAttributes">Body Attributes</h2>
+    </div>   
+    <table>
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>&lt;body bgcolor=?&gt;</code></td>
+                <td>Background Color</td>
+                <td>Sets background color, using name or hex value</td>
+            </tr>
+            <tr>
+                <td><code>&lt;body text=?&gt;</code></td>
+                <td>Text</td>
+                <td>Sets text color, using name or hex value</td>
+            </tr>
+            <tr>
+                <td><code>&lt;body link=?&gt;</code></td>
+                <td>Link</td>
+                <td>Sets color of links, using name or hex value</td>
+            </tr>
+            <tr>
+                <td><code>&lt;body vlink=?&gt;</code></td>
+                <td>Visited Links</td>
+                <td>Sets color of visited links, using name or hex value</td>
+            </tr>
+            <tr>
+                <td><code>&lt;body alink=?&gt;</code></td>
+                <td>Active Links</td>
+                <td>Sets color of active links, using name or hex value</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Text Tags Table-->
+    <div class="centered-content">
+        <h2 id="textTags">Text Tags</h2>
+    </div>  
+    <table>
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>&lt;pre&gt; &lt;/pre&gt;</code></td>
+                <td>Preformatted Text</td>
+                <td>Creates preformatted text</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;h1&gt; &lt;/h1&gt; - &lt;h6&gt; &lt;/h6&gt;</code></td>
+                <td>Headline</td>
+                <td>Creates headlines -- H1= largest, H6 = smallest</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;b&gt; &lt;/b&gt;</code></td>
+                <td>Bold</td>
+                <td>Creates bold text (should use &lt;strong&gt; instead)</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;i&gt; &lt;/i&gt;</code></td>
+                <td>Italicize</td>
+                <td>Creates italicized text (should use &lt;em&gt; instead)</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;tt&gt; &lt;/tt&gt;</code></td>
+                <td>Typewriter-Style</td>
+                <td>Creates typewriter-style text</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;code&gt; &lt;/code&gt;</code></td>
+                <td>Code</td>
+                <td>Used to define source code, usually monospace</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;cite&gt; &lt;/cite&gt;</code></td>
+                <td>Citation</td>
+                <td>Creates a citation, usually processed in italics</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;address&gt; &lt;/address&gt;</code></td>
+                <td>Address</td>
+                <td>Creates address section, usually processed in italics</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;em&gt; &lt;/em&gt;</code></td>
+                <td>Emphasize</td>
+                <td>Creates italicized text</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;strong&gt; &lt;/strong&gt;</code></td>
+                <td>Strong</td>
+                <td>Creates bold text</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;font size=?&gt; &lt;/font&gt;</code></td>
+                <td>Font Size</td>
+                <td>Sets size of font, 1 - 7 (should use CSS instead)</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;font color=?&gt; &lt;/font&gt;</code></td>
+                <td>Font Color</td>
+                <td>Sets font color (should use CSS instead)</td>
+
+            </tr>
+            <tr>
+                <td><code>&lt;font face=?&gt; &lt;/font&gt;</code></td>
+                <td>Font Face</td>
+                <td>Defines the font used (should use CSS instead)</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <!--Links Table-->
+    <div class="centered-content">
+        <h2 id="links">Links</h2>
+    </div>   
+    <table>
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>&lt;a href="URL"&gt;clickable text&lt;/a&gt;</code></td>
+                <td>Hyperlink</td>
+                <td>Creates a hyperlink to a Uniform Resource Locator</td>
+            </tr>
+            <tr>
+                <td><code>&lt;a href="mailto:EMAIL_ADDRESS"&gt;clickable text&lt;/a&gt;</code></td>
+                <td>Mailing Hyperlink</td>
+                <td>Creates a hyperlink to an email address</td>
+            </tr>
+            <tr>
+                <td><code>&lt;a name="NAME"&gt;</code></td>
+                <td>Target Location</td>
+                <td>Creates a target location within a document</td>
+            </tr>
+            <tr>
+                <td><code>&lt;a href="#NAME"&gt;clickable text&lt;/a&gt;</code></td>
+                <td>Target Location Link</td>
+                <td>Creates a link to a target location</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
